@@ -14,13 +14,13 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">E-commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">unilia farm e-commerce web app</h3>
               <p className="text-gray-400 mb-4">
                 Scalable cloud infrastructure management with real-time
                 monitoring and automated scaling.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["PHP","CSS","HTML"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-orange-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -54,7 +54,7 @@ export const Projects = () => {
              
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["Supabase", "React"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -74,7 +74,7 @@ export const Projects = () => {
                   href="#"
                   className="text-orange-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project →
+                  Still working on it →
                 </a>
               </div>
             </div>
@@ -87,13 +87,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Mobile App</h3>
+              <h3 className="text-xl font-bold mb-2">E-Commerce web app</h3>
               <p className="text-gray-400 mb-4">
                 Full-stack e-commerce with modern UI, secure payment
                 integration, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["PHP","CSS","JAVASCRIPT","BOOTSTRAP"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -154,7 +154,7 @@ export const Projects = () => {
                   href="#"
                   className="text-orange-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project →
+                  Still working on it →
                 </a>
               </div>
             </div>

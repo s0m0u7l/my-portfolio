@@ -1,6 +1,6 @@
 {
   "name": "samuelportifolio",
-  "homepage":"https://Samuel0072.github.io/samuelportifolio",
+  "homepage": "https://s0m0u7l.github.io/my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,15 +9,15 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",
     "emailjs-com": "^3.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "tailwindcss": "^4.1.3"
   },
   "devDependencies": {
