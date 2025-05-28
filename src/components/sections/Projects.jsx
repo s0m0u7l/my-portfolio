@@ -16,8 +16,7 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">unilia farm e-commerce web app</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+              Unilia Farm is a modern, responsive e-commerce web app designed to connect farmers and consumers directly. The platform enables users to browse, order, and purchase fresh farm products online, promoting transparency, efficiency, and sustainability in the agricultural supply chain..
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["PHP","CSS","HTML"].map((tech, key) => (
@@ -89,8 +88,7 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">E-Commerce web app</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Full-stack e-commerce with modern UI, and customizable product inventory.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["PHP","CSS","JAVASCRIPT","BOOTSTRAP"].map(
